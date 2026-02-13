@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ysref"
+version = "0.1.0"
+description = "Bulk check reference articles"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+authors = [
+  {name = "Yuji Suehiro", email = "yujisue@ys-ebase.net"}
+]
+
+dependencies = [
+  "pandas",
+  "keyring",
+  "selenium",
+  "bs4",
+  "python-docx",
+  "openpyxl",
+  "PyMuPDF"
+]
